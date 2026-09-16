@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>House & Home Real Estate</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #111;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ff8c00;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #ff8c00;
+}
+
+/* HEADER */
+
+header {
+    background: linear-gradient(135deg, #f28c00, #d93422);
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+/* HERO */
+
+.hero {
+    background: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 38px;
+    color: #e65c00;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 22px;
+    margin: 6px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.call {
+    background: #e65c00;
+    color: white;
+}
+
+.whatsapp {
+    background: #168b45;
+    color: white;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 55px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d94827;
+}
+
+/* SERVICE CARDS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    padding: 28px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #e65c00;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* ABOUT */
+
+.about {
+    background: white;
+    text-align: center;
+    line-height: 1.7;
+}
+
+/* CONTACT */
+
+.contact {
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ff9b24;
+}
+
+.contact p {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+.contact a {
+    color: #ff9b24;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 18px;
+    font-size: 13px;
+}
+
+/* PHONE */
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        gap: 14px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <div class="logo">
+        House <span>&</span> Home
+    </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- HEADER -->
+
+<header id="home">
+
+    <h1>House & Home</h1>
+    <p>REAL ESTATE</p>
+
+</header>
+
+
+<!-- HERO -->
+
+<div class="hero">
+
+    <h2>Your Property. Your Future.</h2>
+
+    <p>
+        Professional real estate services for
+        buying, selling and renting property.
+    </p>
+
+    <div class="buttons">
+
+        <a class="btn call"
+           href="tel:0660764017">
+           📞 Call Us
+        </a>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/27660764017">
+           💬 WhatsApp
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🏠 Buying</h3>
+            <p>
+                Find a property that suits
+                your needs and budget.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🔑 Selling</h3>
+            <p>
+                Get professional assistance
+                when selling your property.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏢 Renting</h3>
+            <p>
+                Explore property rental
+                opportunities for your next home.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📋 Valuations</h3>
+            <p>
+                Professional property valuation
+                and appraisal services.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2>About House & Home</h2>
+
+    <p>
+        House & Home Real Estate provides
+        professional property services including
+        buying, selling, renting, valuations
+        and appraisals.
+    </p>
+
+    <br>
+
+    <p>
+        Whether you're looking for your next home
+        or selling your property, our team is
+        ready to assist you.
+    </p>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>
+        📞
+        <a href="tel:0660764017">
+            066 076 4017
+        </a>
+    </p>
+
+    <p>
+    💬
+    <a href="https://wa.me/27659984294">
+        065 998 4294 — WhatsApp
+    </a>
+</p>
+        ✉️
+        <a href="mailto:housesandhomes1974@gmail.com">
+            housesandhomes1974@gmail.com
+        </a>
+    </>
+
+    <div class="buttons">
+
+        <a class="btn whatsapp"
+           href="https://wa.me/27660764017">
+           💬 Chat on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    © 2026 House & Home Real Estate
+
+</footer>
+
+</body>
+</html>
